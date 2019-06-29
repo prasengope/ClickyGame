@@ -45,11 +45,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">The Clickster</h1>
-          <p className="App-intro">
-            Try not to click the same image twice!
-          </p>
+          <h1 className="App-title">Good luck with the Clicky Game!</h1>
+          <h3 className="App-intro">
+            Please do not click the same image twice!
+          </h3>
         </header>
+        <hr />
         <Score total={this.state.score}
                goal={8}
                status={this.state.status}

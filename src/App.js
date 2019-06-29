@@ -66,7 +66,7 @@ class App extends Component {
           ))}
         </Wrapper>
         <footer>
-          <p>github code: <a href="https://github.com/prasengope/clickygame" target="_blank" rel="noopener noreferrer"> here</a>.</p>
+          <p className="App-gitLink"> github code: <a href="https://github.com/prasengope/clickygame" target="_blank" rel="noopener noreferrer"> here</a>.</p>
         </footer>
     </div>
     );
